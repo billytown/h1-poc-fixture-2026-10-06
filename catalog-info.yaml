@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: zz-forged-by-unauthenticated-push-event
+  description: PoC marker entity. Ingested from a repository outside the configured GitHub organization.
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/zz-attacker-chosen-owner
